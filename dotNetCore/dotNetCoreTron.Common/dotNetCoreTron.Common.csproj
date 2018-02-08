@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Command\" />
+    <Folder Include="Crypto\" />
+    <Folder Include="Overlay\" />
+    <Folder Include="Storage\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+</Project>

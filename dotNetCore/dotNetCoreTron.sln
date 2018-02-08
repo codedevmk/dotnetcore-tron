@@ -1,9 +1,31 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A4A564AA-EFF4-49EF-8898-9D4484E274B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetCoreTron.Common", "dotNetCoreTron.Common\dotNetCoreTron.Common.csproj", "{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E66BE267-2B0E-4ECB-912C-E34D4926E8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetCoreTron.Core", "dotNetCoreTron.Core\dotNetCoreTron.Core.csproj", "{DEE898FF-1298-4C60-B098-755D4C562604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE898FF-1298-4C60-B098-755D4C562604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE898FF-1298-4C60-B098-755D4C562604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE898FF-1298-4C60-B098-755D4C562604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE898FF-1298-4C60-B098-755D4C562604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62CA9BE5-9EC2-4ABF-BB9E-21E427DFD38F} = {A4A564AA-EFF4-49EF-8898-9D4484E274B2}
+		{DEE898FF-1298-4C60-B098-755D4C562604} = {E66BE267-2B0E-4ECB-912C-E34D4926E8E5}
 	EndGlobalSection
 EndGlobal
